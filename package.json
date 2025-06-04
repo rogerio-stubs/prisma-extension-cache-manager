@@ -1,0 +1,32 @@
+{
+  "name": "prisma-extension-cache-manager",
+  "version": "1.0.0",
+  "description": "Efficient caching setup between Prisma ORM and Nest",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogerio-stubs/prisma-extension-cache-manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogerio-stubs/prisma-extension-cache-manager/issues"
+  },
+  "homepage": "https://github.com/rogerio-stubs/prisma-extension-cache-manager#readme",
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+  "@nestjs/common": "^10.0.0",
+  "@nestjs/core": "^10.0.0",
+  "rxjs": "^7.0.0",
+  "reflect-metadata": "^0.1.13"
+}
+}
